@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 263.89655 274.28425"
+   id="hex"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="hexagons2.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1278"
+     inkscape:window-height="695"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="2.2589209"
+     inkscape:cx="96.873154"
+     inkscape:cy="137.14213"
+     inkscape:window-x="2"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="hex" />
+  <defs
+     id="defs4">
+    <pattern
+       width="60"
+       height="60"
+       y="0"
+       x="0"
+       id="emoji">
+      <image
+
+         xlink:href="emoji.png"
+         id="image6"
+         height="60"
+         width="60"
+         y="20"
+         x="20" />
+    </pattern>
+    <style>
+      @font-face {
+        font-family: 'FontAwesome';
+        src: url('fonts/fontawesome-webfont.eot');
+        src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/fontawesome-webfont.woff2') format('woff2'),
+             url('fonts/fontawesome-webfont.woff') format('woff'),
+             url('fonts/fontawesome-webfont.ttf')  format('truetype'),
+             url('fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+       }
+    </style>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="ui" class="svg-ui">
+    <path
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       class="hexs about"
+       id="center"
+       d="M 157.10404,180.7132 106.79251,180.71319 81.636751,137.14213 106.79252,93.57107 157.10405,93.57107 182.25981,137.14214 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 235.85404,226.78424 185.54251,226.78424 160.38675,183.21318 185.54252,139.64212 235.85405,139.64212 261.00981,183.21318 Z"
+       class="hexs"
+       id="hex3"
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       class="hexs"
+       id="hex5"
+       d="M 78.354041,226.78424 28.042511,226.78424 2.8867514,183.21318 28.042521,139.64212 78.354051,139.64212 103.50981,183.21318 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 78.354041,134.64212 28.042511,134.64212 2.8867514,91.07106 28.042521,47.5 78.354051,47.5 103.50981,91.07107 Z"
+       class="hexs links"
+       id="github"
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="33.912575"
+       y="107.61369"
+       id="github"
+       class="links"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4148"
+         x="33.912575"
+         y="107.61369"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
+    <path
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       class="hexs links"
+       id="twitter"
+       d="M 235.85404,134.64212 185.54251,134.64212 160.38675,91.07106 185.54252,47.5 235.85405,47.5 261.00981,91.07107 Z"
+       inkscape:connector-curvature="0" />
+    <text
+       id="twitter"
+       class="links"
+       y="107.1425"
+       x="189.80544"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
+         y="107.1425"
+         x="189.80544"
+         id="tspan4164"></tspan></text>
+    <path
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       class="hexs links"
+       id="linkedin"
+       d="M 157.10404,271.78424 106.79251,271.78424 81.636751,228.21318 106.79252,184.64212 157.10405,184.64212 182.25981,228.21318 Z"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.66257"
+       y="244.28462"
+       id="linkedin"
+       class="links"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4168"
+         x="112.66257"
+         y="244.28462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
+    <path
+       d="M 157.10404,89.64212 106.79251,89.64212 81.636751,46.07106 106.79252,2.5 157.10405,2.5 182.25981,46.07106 Z"
+       class="inv"
+       id="hex1"
+       style="opacity:1;fill:#000000;fill-opacity:0.00392157;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="91.247597"
+       y="141.85161"
+       id="about"
+       class="about about-text"
+       sodipodi:linespacing="125%"><tspan
+         id="about-text"
+         class="about-text"
+         x="91.247597"
+         y="141.85161"
+         style="font-size:15px;text-align:center">about(Me);</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,192 @@
+<html>
+<head>
+<style>
+
+html {
+   width:100%;
+   height:100%;
+   background:url(background.png) center center no-repeat;
+   background-color: #000000;
+}
+
+.heading {
+  color: #ffffff;
+  font-family:sans-serif;
+  font-size: 6px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#name {
+  font-size: 36px;
+  top: 5;
+}
+#handle {
+  font-size: 18px;
+  top: 50;
+}
+
+#hexagons  {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.ui-widget{
+  font-family:sans-serif;
+  font-size:14px;
+  padding:10px;
+  border-width:3px;
+  background:#FFFFFF;
+  opacity: 0.8;
+  text-align: center;
+}
+
+
+.dlg-no-title .ui-dialog-titlebar {
+  display: none;
+}
+
+</style>
+<script>
+function social(selection) {
+  var domain
+  var url
+  domain=selection.property("id");
+  url="https://www." + domain + ".com/";
+  if (domain == "linkedin") { url+= "in/"; }
+  window.location.href=url + "botwhytho";
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.0/d3.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="name" class="heading">Alberto Torres</div>
+<div id="handle" class="heading">@botwhytho</div>
+<object id="hexagons" data="hexagons.svg" width="100%" height="300" type="image/svg+xml" ></object>
+
+<div id="myStory" >
+	<strong>Full Stack Polyglot Developer</strong>
+	<p>I seek out things that challenge me & I'm
+  satisfied when I learn something new everyday.
+  More & more discovering the joys of open
+  source & giving back to the community.</p>
+  <p>Excited about software development, machine learning,
+  music production, percussion, visualizations,
+  operating system/container & virtualization advances,
+  hardware, interactive art, gadgets, food/kitchen gadgets,
+  food & cooking food.Did I mention I like food?</p>
+  <p>Drop me a line if you are interested in employing me,
+    have potential ideas for some kick-ass open-source projects or would like
+    to collaborate with me.</p>
+</div>
+
+<script>
+var svg;
+var emojiLoad;
+var about = false;
+var center;
+var centerText;
+
+
+window.onload=function() {
+
+svg = d3.select("#hexagons").node().getSVGDocument();
+
+d3.select(svg).selectAll("svg#hex .hexs")
+.on("touchstart", function() { d3.select(this).transition().duration(200).style("opacity", 0.3);})
+.on("touchend", function() { d3.select(this).transition().duration(500).style("opacity", 1);})
+.on("mousedown", function() { d3.select(this).transition().duration(200).style("opacity", 0.3);})
+.on("mouseup", function() { d3.select(this).transition().duration(500).style("opacity", 1);})
+.on("mouseover", function() { d3.select(this).transition().duration(200).style("opacity", 0.3);})
+.on("mouseout", function() { d3.select(this).transition().duration(500).style("opacity", 1);})
+;
+
+d3.select(svg).selectAll("svg#hex .inv")
+.on("mouseover", function() {
+  if (emojiLoad == undefined ){
+    d3.select(this)
+    .transition().duration(300)
+    .style("fill", "url(#emoji)")
+    .style("fill-opacity", 1)
+    ;
+    emojiLoad = true;
+  }
+  d3.select(this)
+  .transition().duration(300)
+  .style("fill-opacity", 1)
+  ;
+})
+.on("mouseout", function() { d3.select(this).transition().duration(900).style("fill-opacity", 0.00392157);})
+;
+
+d3.select(svg).selectAll("svg#hex .links")
+.on("mousedown", function() { social(d3.select(this)) ;})
+.on("touchstart", function() { social(d3.select(this)) ;})
+;
+
+d3.select(svg).selectAll("svg#hex .about")
+.on("mousedown", function() {
+    about = true;
+    $( "#myStory" ).dialog( "open" );
+})
+.on("touchstart", function() {
+    about = true;
+    $( "#myStory" ).dialog( "open" );
+})
+;
+
+$( "#myStory" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "fade",
+        duration: 150
+      },
+      hide: {
+        effect: "fade",
+        duration: 150
+      },
+      position: {
+        my: "center",
+        at: "center"
+      },
+
+      dialogClass: "dlg-no-title",
+      width: 265
+
+    });
+
+
+window.addEventListener("mousedown",function() {
+  if (about == true) {
+    $( "#myStory" ).dialog( "close" );
+    about = false;
+  }
+})
+;
+window.addEventListener("touchstart",function() {
+  if (about == true) {
+    $( "#myStory" ).dialog( "close" );
+    about = false;
+  }
+})
+;
+
+center = d3.select(svg).selectAll("svg#hex #center").node().getBBox();
+centerText = d3.select(svg).selectAll("svg#hex .about-text").node().getBBox();
+d3.select(svg).selectAll("svg#hex .about-text")
+.attr("transform", "translate(" + (center.width/2-centerText.width/2-centerTest.x) + "," + (center.height/2-centerText.height/2-centerText.y)+ ")");
+
+};
+
+</script>
+</body>
+</html>
