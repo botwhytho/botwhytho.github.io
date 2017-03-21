@@ -52,12 +52,22 @@ html {
 </style>
 <script>
 function social(selection) {
-  var domain
-  var url
-  domain=selection.property("id");
-  url="https://www." + domain + ".com/";
-  if (domain == "linkedin") { url+= "in/"; }
-  window.location.href=url + "botwhytho";
+  var username = "botwhytho";
+  var domain, url;
+  domain=selection.property("id").split("-")[0];
+  switch (true) {
+    case ["blog","projects"].indexOf(domain) > -1:
+      url = "https://" + username + ".github.io/" + domain;
+      break;
+    case domain === "linkedin":
+      url = "https://www." + domain + ".com/in/" + username;
+      break;
+    default:
+      url="https://www." + domain + ".com/" + username;
+      break;
+  }
+  // console.log(url);
+  window.location.href=url;
 }
 </script>
 
@@ -180,10 +190,10 @@ window.addEventListener("touchstart",function() {
 })
 ;
 
-center = d3.select(svg).selectAll("svg#hex #center").node().getBBox();
-centerText = d3.select(svg).selectAll("svg#hex .about-text").node().getBBox();
-d3.select(svg).selectAll("svg#hex .about-text")
-.attr("transform", "translate(" + (center.width/2-centerText.width/2-centerTest.x) + "," + (center.height/2-centerText.height/2-centerText.y)+ ")");
+// center = d3.select(svg).selectAll("svg#hex #center").node().getBBox();
+// centerText = d3.select(svg).selectAll("svg#hex .about-text").node().getBBox();
+// d3.select(svg).selectAll("svg#hex .about-text")
+// .attr("transform", "translate(" + (center.width/2-centerText.width/2-centerText.x) + "," + (center.height/2-centerText.height/2-centerText.y)+ ")");
 
 };
 

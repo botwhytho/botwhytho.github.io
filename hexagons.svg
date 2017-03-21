@@ -11,7 +11,7 @@
    viewBox="0 0 263.89655 274.28425"
    id="hex"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.92.1 unknown"
    sodipodi:docname="hexagons2.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -22,13 +22,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1278"
-     inkscape:window-height="695"
+     inkscape:window-width="1364"
+     inkscape:window-height="743"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="2.2589209"
-     inkscape:cx="96.873154"
-     inkscape:cy="137.14213"
+     inkscape:zoom="1.5972983"
+     inkscape:cx="66.075953"
+     inkscape:cy="129.3315"
      inkscape:window-x="2"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -42,7 +42,7 @@
        x="0"
        id="emoji">
       <image
-
+         sodipodi:absref="/home/botwhytho/01_reRecurse/botwhytho.github.io/emoji.png"
          xlink:href="emoji.png"
          id="image6"
          height="60"
@@ -50,7 +50,8 @@
          y="20"
          x="20" />
     </pattern>
-    <style>
+    <style
+       id="style5">
       @font-face {
         font-family: 'FontAwesome';
         src: url('fonts/fontawesome-webfont.eot');
@@ -75,97 +76,120 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="ui" class="svg-ui">
+     id="g67">
+    <path
+       d="M 157.10404,89.64212 H 106.79251 L 81.636751,46.07106 106.79252,2.5 h 50.31153 l 25.15576,43.57106 z"
+       class="inv"
+       id="hex1"
+       style="opacity:1;fill:#000000;fill-opacity:0.00392157;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        class="hexs about"
        id="center"
-       d="M 157.10404,180.7132 106.79251,180.71319 81.636751,137.14213 106.79252,93.57107 157.10405,93.57107 182.25981,137.14214 Z"
+       d="m 157.10404,180.7132 -50.31153,-1e-5 -25.155759,-43.57106 25.155769,-43.57106 h 50.31153 l 25.15576,43.57107 z"
        inkscape:connector-curvature="0" />
     <path
-       d="M 235.85404,226.78424 185.54251,226.78424 160.38675,183.21318 185.54252,139.64212 235.85405,139.64212 261.00981,183.21318 Z"
-       class="hexs"
-       id="hex3"
-       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
-       class="hexs"
-       id="hex5"
-       d="M 78.354041,226.78424 28.042511,226.78424 2.8867514,183.21318 28.042521,139.64212 78.354051,139.64212 103.50981,183.21318 Z"
-       inkscape:connector-curvature="0" />
-    <path
-       d="M 78.354041,134.64212 28.042511,134.64212 2.8867514,91.07106 28.042521,47.5 78.354051,47.5 103.50981,91.07107 Z"
+       d="m 235.85404,226.78424 h -50.31153 l -25.15576,-43.57106 25.15577,-43.57106 h 50.31153 l 25.15576,43.57106 z"
        class="hexs links"
-       id="github"
+       id="blog-path"
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+       class="hexs links"
+       id="projects-path"
+       d="M 78.354041,226.78424 H 28.042511 L 2.8867514,183.21318 28.042521,139.64212 h 50.31153 l 25.155759,43.57106 z"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 78.354041,134.64212 H 28.042511 L 2.8867514,91.07106 28.042521,47.5 h 50.31153 l 25.155759,43.57107 z"
+       class="hexs links"
+       id="github-path"
        style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="33.912575"
        y="107.61369"
-       id="github"
-       class="links"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan4148"
+       id="github-text"
+       class="links"><tspan
+         id="github-tspan"
+         class="links"
          x="33.912575"
          y="107.61369"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
     <path
        style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        class="hexs links"
-       id="twitter"
-       d="M 235.85404,134.64212 185.54251,134.64212 160.38675,91.07106 185.54252,47.5 235.85405,47.5 261.00981,91.07107 Z"
+       id="twitter-path"
+       d="M 235.85404,134.64212 H 185.54251 L 160.38675,91.07106 185.54252,47.5 h 50.31153 l 25.15576,43.57107 z"
        inkscape:connector-curvature="0" />
     <text
-       id="twitter"
+       id="twitter-text"
        class="links"
        y="107.1425"
        x="189.80544"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
          y="107.1425"
          x="189.80544"
-         id="tspan4164"></tspan></text>
+         class="links"
+         id="twitter-tspan"></tspan></text>
     <path
        style="opacity:1;fill:#f9cc32;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
        class="hexs links"
-       id="linkedin"
-       d="M 157.10404,271.78424 106.79251,271.78424 81.636751,228.21318 106.79252,184.64212 157.10405,184.64212 182.25981,228.21318 Z"
+       id="linkedin-path"
+       d="M 157.10404,271.78424 H 106.79251 L 81.636751,228.21318 106.79252,184.64212 h 50.31153 l 25.15576,43.57106 z"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="112.66257"
        y="244.28462"
-       id="linkedin"
-       class="links"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan4168"
+       id="linkedin-text"
+       class="links"><tspan
+         id="linkedin-tspan"
+         class="links"
          x="112.66257"
          y="244.28462"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
-    <path
-       d="M 157.10404,89.64212 106.79251,89.64212 81.636751,46.07106 106.79252,2.5 157.10405,2.5 182.25981,46.07106 Z"
-       class="inv"
-       id="hex1"
-       style="opacity:1;fill:#000000;fill-opacity:0.00392157;stroke:#800000;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="91.247597"
        y="141.85161"
        id="about"
-       class="about about-text"
-       sodipodi:linespacing="125%"><tspan
+       class="about about-text"><tspan
          id="about-text"
          class="about-text"
          x="91.247597"
          y="141.85161"
          style="font-size:15px;text-align:center">about(Me);</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="30.69828"
+       y="202.49889"
+       id="projects-text"
+       class="links"><tspan
+         id="projects-tspan"
+         class="links"
+         x="30.69828"
+         y="202.49889"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="188.19827"
+       y="199.28461"
+       id="blog-text"
+       class="links"><tspan
+         id="blog-tspan"
+         class="links"
+         x="188.19827"
+         y="199.28461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
   </g>
 </svg>
