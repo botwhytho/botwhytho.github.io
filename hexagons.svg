@@ -12,7 +12,7 @@
    id="hex"
    version="1.1"
    inkscape:version="0.92.1 unknown"
-   sodipodi:docname="hexagons2.svg">
+   sodipodi:docname="hexagons.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,7 +27,7 @@
      id="namedview23"
      showgrid="false"
      inkscape:zoom="1.5972983"
-     inkscape:cx="66.075953"
+     inkscape:cx="87.987952"
      inkscape:cy="129.3315"
      inkscape:window-x="2"
      inkscape:window-y="0"
@@ -44,11 +44,11 @@
       <image
          sodipodi:absref="/home/botwhytho/01_reRecurse/botwhytho.github.io/emoji.png"
          xlink:href="emoji.png"
-         id="image6"
-         height="60"
-         width="60"
+         x="20"
          y="20"
-         x="20" />
+         width="60"
+         height="60"
+         id="image6" />
     </pattern>
     <style
        id="style5">
@@ -178,18 +178,18 @@
          class="links"
          x="30.69828"
          y="202.49889"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="188.19827"
-       y="199.28461"
+       x="191.67624"
+       y="199.02094"
        id="blog-text"
        class="links"><tspan
          id="blog-tspan"
          class="links"
-         x="188.19827"
-         y="199.28461"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
+         x="191.67624"
+         y="199.02094"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></tspan></text>
   </g>
 </svg>
